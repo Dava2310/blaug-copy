@@ -1,4 +1,4 @@
-<x-site-layout>
+<x-site-layout title="{{$article->title}}">
     <div>
         <h2>{{$article->title}}</h2>
         <p>{{$article->content}}</p>
@@ -6,7 +6,7 @@
     </div>
 
     <h2>Comments</h2>
-    
+
     {{-- Comments section --}}
     @foreach($article->comments as $comment)
         <div>

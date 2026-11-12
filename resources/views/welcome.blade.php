@@ -1,4 +1,4 @@
-<x-site-layout>
+<x-site-layout title="">
     <h1>{{ $article->title }}</h1>
     <p>{{ $article->author }}</p><br/>
     {{ $article->content }}<br/><br/>

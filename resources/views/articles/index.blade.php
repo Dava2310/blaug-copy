@@ -1,4 +1,4 @@
-<x-site-layout>
+<x-site-layout title="Articles overview">
     <h1>List of Articles</h1>
 
     @foreach($articles as $article)

@@ -5,5 +5,6 @@
         <h2>{{$article->title}}</h2>
         <p>{{$article->content}}</p>
         <p>Written by {{$article->author}}</p>
+        <a href="{{ route('articles.show', $article) }}">Read full article</a>
     </div>
 @endforeach
